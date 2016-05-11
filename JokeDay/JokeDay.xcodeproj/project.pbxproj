@@ -20,6 +20,8 @@
 		8309ECC21CE2D6130040A753 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECC11CE2D6130040A753 /* DiscoverViewController.swift */; };
 		8309ECC61CE2F16C0040A753 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8309ECC41CE2F16C0040A753 /* MainVCSettings.json */; };
 		8309ECC71CE2F16C0040A753 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECC51CE2F16C0040A753 /* NullViewController.swift */; };
+		8309ECC91CE30EE50040A753 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECC81CE30EE50040A753 /* BaseViewController.swift */; };
+		83C603A31CE3B78500EAA38F /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C603A21CE3B78500EAA38F /* UIView+AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		8309ECC11CE2D6130040A753 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 		8309ECC41CE2F16C0040A753 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
 		8309ECC51CE2F16C0040A753 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
+		8309ECC81CE30EE50040A753 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		83C603A21CE3B78500EAA38F /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				8309ECB91CE2D5D00040A753 /* MainViewController.swift */,
+				8309ECC81CE30EE50040A753 /* BaseViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 		8309ECB81CE2D5A70040A753 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				83C603A21CE3B78500EAA38F /* UIView+AutoLayout.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -354,6 +360,8 @@
 				8309ECC21CE2D6130040A753 /* DiscoverViewController.swift in Sources */,
 				8309ECBE1CE2D5FA0040A753 /* ProfileViewController.swift in Sources */,
 				8309ECBC1CE2D5E10040A753 /* MessageViewController.swift in Sources */,
+				83C603A31CE3B78500EAA38F /* UIView+AutoLayout.swift in Sources */,
+				8309ECC91CE30EE50040A753 /* BaseViewController.swift in Sources */,
 				8309ECC71CE2F16C0040A753 /* NullViewController.swift in Sources */,
 				8309EC701CE2CDB50040A753 /* AppDelegate.swift in Sources */,
 				8309ECC01CE2D6060040A753 /* HomeViewController.swift in Sources */,

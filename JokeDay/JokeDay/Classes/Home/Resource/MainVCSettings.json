@@ -1,0 +1,27 @@
+[
+ {
+    "vcName": "HomeViewController",
+    "title": "首页",
+    "imageName": "tabBar_essence_icon"
+ },
+ {
+     "vcName": "MessageViewController",
+     "title": "消息",
+     "imageName": "tabBar_friendTrends_icon"
+ },
+ {
+ "vcName": "NullViewController",
+ "title": "",
+ "imageName": ""
+ },
+ {
+     "vcName": "DiscoverViewController",
+     "title": "广场",
+     "imageName": "tabBar_new_icon"
+ },
+ {
+     "vcName": "ProfileViewController",
+     "title": "我",
+     "imageName": "tabBar_me_icon"
+ }
+ ]
