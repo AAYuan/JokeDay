@@ -17,6 +17,58 @@ class MainViewController: UITabBarController {
 
         tabBar.tintColor = UIColor.blackColor()
         
+        //添加子控制器
+        addChildViewControllers()
+        
+        //不推荐在viewDidLoad中设置frame
+//        print(tabBar.subviews)
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+//        print(tabBar.subviews)
+        
+        //添加加号按钮
+        setupComposeBtn()
+        
+        
+    }
+    
+    /**
+     监听加号按钮点击
+     注意: 监听按钮点击的方法不能是私有方法
+     按钮点击事件的调用是由 运行循环 监听并且以消息机制传递的，因此，按钮监听函数不能设置为 private
+     */
+    func composeBtnClick() {
+        print(__FUNCTION__)
+    }
+    
+    /**
+     添加加号按钮
+     */
+    private func setupComposeBtn()
+    {
+        //1.添加按钮
+        tabBar.addSubview(composeBtn)
+        
+        //2.调整位置(不要用控制器的宽度，因为控制器宽度可能不确定,会很大)
+        let width = UIScreen.mainScreen().bounds.size.width / CGFloat((viewControllers?.count)!)
+        let rect = CGRect(x: 0, y: 0, width: width, height: 49)
+        
+//        composeBtn.frame = rect;
+        
+        // 第一个参数:是frame的大小
+        // 第二个参数:是x方向偏移的大小
+        // 第三个参数: 是y方向偏移的大小
+        composeBtn.frame = CGRectOffset(rect, 2 * width, 0)
+    }
+    
+    /**
+     添加所有子控制器
+     */
+    private func addChildViewControllers(){
+        
         //1.获取控制器json文件路径
         let path = NSBundle.mainBundle().pathForResource("MainVCSettings.json", ofType: nil)
         //2.通过文件路径创建NSData
@@ -41,19 +93,20 @@ class MainViewController: UITabBarController {
                 //发生异常后执行的代码
                 print(error)
                 
+                
                 // 从本地创建控制器
                 addChildViewController("HomeViewController", title: "首页", imageName: "tabBar_essence_icon")
                 addChildViewController("MessageViewController", title: "消息", imageName: "tabBar_friendTrends_icon")
                 addChildViewController("DiscoverViewController", title: "广场", imageName: "tabBar_new_icon")
                 addChildViewController("ProfileViewController", title: "我", imageName: "tabBar_me_icon")
-
+                
                 
             }
             
         }
         
-        
 
+        
     }
     
     /**
@@ -95,6 +148,19 @@ class MainViewController: UITabBarController {
 
         
     }
+    
+    //MARK: - 懒加载
+    private lazy var composeBtn:UIButton = {
+        let btn = UIButton()
+        //设置图片
+        btn.setImage(UIImage(named: "tabBar_publish_icon"), forState: UIControlState.Normal)
+        btn.setImage(UIImage(named: "tabBar_publish_icon_click"), forState: UIControlState.Highlighted)
+        //设置监听方法
+        btn.addTarget(self, action: "composeBtnClick", forControlEvents: UIControlEvents.TouchUpInside)
+        
+        return btn
+        
+    }()
     
 
 }
