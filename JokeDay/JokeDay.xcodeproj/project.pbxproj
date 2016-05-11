@@ -13,11 +13,11 @@
 		8309EC7A1CE2CDB50040A753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8309EC781CE2CDB50040A753 /* LaunchScreen.storyboard */; };
 		8309EC851CE2CDB50040A753 /* JokeDayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309EC841CE2CDB50040A753 /* JokeDayTests.swift */; };
 		8309EC901CE2CDB50040A753 /* JokeDayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309EC8F1CE2CDB50040A753 /* JokeDayUITests.swift */; };
-		8309ECA81CE2D1430040A753 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECA71CE2D1430040A753 /* HomeViewController.swift */; };
-		8309ECAA1CE2D1620040A753 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECA91CE2D1620040A753 /* DiscoverViewController.swift */; };
-		8309ECAC1CE2D17C0040A753 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECAB1CE2D17C0040A753 /* MessageViewController.swift */; };
-		8309ECAE1CE2D2040040A753 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECAD1CE2D2040040A753 /* ProfileViewController.swift */; };
-		8309ECB01CE2D2920040A753 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECAF1CE2D2920040A753 /* MainViewController.swift */; };
+		8309ECBA1CE2D5D00040A753 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECB91CE2D5D00040A753 /* MainViewController.swift */; };
+		8309ECBC1CE2D5E10040A753 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECBB1CE2D5E10040A753 /* MessageViewController.swift */; };
+		8309ECBE1CE2D5FA0040A753 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECBD1CE2D5FA0040A753 /* ProfileViewController.swift */; };
+		8309ECC01CE2D6060040A753 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECBF1CE2D6060040A753 /* HomeViewController.swift */; };
+		8309ECC21CE2D6130040A753 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECC11CE2D6130040A753 /* DiscoverViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,11 +50,11 @@
 		8309EC8B1CE2CDB50040A753 /* JokeDayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JokeDayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8309EC8F1CE2CDB50040A753 /* JokeDayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeDayUITests.swift; sourceTree = "<group>"; };
 		8309EC911CE2CDB50040A753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8309ECA71CE2D1430040A753 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		8309ECA91CE2D1620040A753 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		8309ECAB1CE2D17C0040A753 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
-		8309ECAD1CE2D2040040A753 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		8309ECAF1CE2D2920040A753 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8309ECB91CE2D5D00040A753 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8309ECBB1CE2D5E10040A753 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		8309ECBD1CE2D5FA0040A753 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		8309ECBF1CE2D6060040A753 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8309ECC11CE2D6130040A753 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		8309EC6E1CE2CDB50040A753 /* JokeDay */ = {
 			isa = PBXGroup;
 			children = (
-				8309EC9D1CE2D0180040A753 /* Classes */,
+				8309ECB11CE2D5A70040A753 /* Classes */,
 				8309EC6F1CE2CDB50040A753 /* AppDelegate.swift */,
 				8309EC711CE2CDB50040A753 /* ViewController.swift */,
 				8309EC761CE2CDB50040A753 /* Assets.xcassets */,
@@ -133,68 +133,68 @@
 			path = JokeDayUITests;
 			sourceTree = "<group>";
 		};
-		8309EC9D1CE2D0180040A753 /* Classes */ = {
+		8309ECB11CE2D5A70040A753 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8309EC9E1CE2D0180040A753 /* Common */,
-				8309EC9F1CE2D0180040A753 /* Discover */,
-				8309ECA01CE2D0180040A753 /* Home */,
-				8309ECA11CE2D0180040A753 /* Main */,
-				8309ECA21CE2D0180040A753 /* Message */,
-				8309ECA31CE2D0180040A753 /* Profile */,
-				8309ECA41CE2D0180040A753 /* Tools */,
+				8309ECB21CE2D5A70040A753 /* Common */,
+				8309ECB31CE2D5A70040A753 /* Discover */,
+				8309ECB41CE2D5A70040A753 /* Home */,
+				8309ECB51CE2D5A70040A753 /* Main */,
+				8309ECB61CE2D5A70040A753 /* Message */,
+				8309ECB71CE2D5A70040A753 /* Profile */,
+				8309ECB81CE2D5A70040A753 /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		8309EC9E1CE2D0180040A753 /* Common */ = {
+		8309ECB21CE2D5A70040A753 /* Common */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Common;
 			sourceTree = "<group>";
 		};
-		8309EC9F1CE2D0180040A753 /* Discover */ = {
+		8309ECB31CE2D5A70040A753 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
-				8309ECA91CE2D1620040A753 /* DiscoverViewController.swift */,
+				8309ECC11CE2D6130040A753 /* DiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
 		};
-		8309ECA01CE2D0180040A753 /* Home */ = {
+		8309ECB41CE2D5A70040A753 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8309ECA71CE2D1430040A753 /* HomeViewController.swift */,
+				8309ECBF1CE2D6060040A753 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
 		};
-		8309ECA11CE2D0180040A753 /* Main */ = {
+		8309ECB51CE2D5A70040A753 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				8309ECAF1CE2D2920040A753 /* MainViewController.swift */,
+				8309ECB91CE2D5D00040A753 /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
 		};
-		8309ECA21CE2D0180040A753 /* Message */ = {
+		8309ECB61CE2D5A70040A753 /* Message */ = {
 			isa = PBXGroup;
 			children = (
-				8309ECAB1CE2D17C0040A753 /* MessageViewController.swift */,
+				8309ECBB1CE2D5E10040A753 /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
 		};
-		8309ECA31CE2D0180040A753 /* Profile */ = {
+		8309ECB71CE2D5A70040A753 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				8309ECAD1CE2D2040040A753 /* ProfileViewController.swift */,
+				8309ECBD1CE2D5FA0040A753 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		8309ECA41CE2D0180040A753 /* Tools */ = {
+		8309ECB81CE2D5A70040A753 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -334,13 +334,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8309ECB01CE2D2920040A753 /* MainViewController.swift in Sources */,
+				8309ECBA1CE2D5D00040A753 /* MainViewController.swift in Sources */,
 				8309EC721CE2CDB50040A753 /* ViewController.swift in Sources */,
+				8309ECC21CE2D6130040A753 /* DiscoverViewController.swift in Sources */,
+				8309ECBE1CE2D5FA0040A753 /* ProfileViewController.swift in Sources */,
+				8309ECBC1CE2D5E10040A753 /* MessageViewController.swift in Sources */,
 				8309EC701CE2CDB50040A753 /* AppDelegate.swift in Sources */,
-				8309ECA81CE2D1430040A753 /* HomeViewController.swift in Sources */,
-				8309ECAE1CE2D2040040A753 /* ProfileViewController.swift in Sources */,
-				8309ECAC1CE2D17C0040A753 /* MessageViewController.swift in Sources */,
-				8309ECAA1CE2D1620040A753 /* DiscoverViewController.swift in Sources */,
+				8309ECC01CE2D6060040A753 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,6 +563,7 @@
 				8309EC961CE2CDB50040A753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8309EC971CE2CDB50040A753 /* Build configuration list for PBXNativeTarget "JokeDayTests" */ = {
 			isa = XCConfigurationList;
@@ -571,6 +572,7 @@
 				8309EC991CE2CDB50040A753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8309EC9A1CE2CDB50040A753 /* Build configuration list for PBXNativeTarget "JokeDayUITests" */ = {
 			isa = XCConfigurationList;
@@ -579,6 +581,7 @@
 				8309EC9C1CE2CDB50040A753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
