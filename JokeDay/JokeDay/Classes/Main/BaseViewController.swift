@@ -34,7 +34,6 @@ class BaseViewController: UITableViewController, VisitorViewDelegate {
         visitView?.delegate = self
         
         //2.设置导航条未登录界面
-        navigationController?.navigationBar.tintColor = UIColor.redColor()
         navigationItem.leftBarButtonItem = UIBarButtonItem(title: "注册", style: UIBarButtonItemStyle.Plain, target: self, action: "registerBtnWillClick")
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "登录", style: UIBarButtonItemStyle.Plain, target: self, action: "loginBtnWillClick")
         
