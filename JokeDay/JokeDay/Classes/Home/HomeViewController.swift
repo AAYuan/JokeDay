@@ -10,4 +10,13 @@ import UIKit
 
 class HomeViewController: BaseViewController {
 
+    override func viewDidLoad() {
+        if !userLogin{
+            
+            visitView?.setupVisitorInfo(true, imageName: "visitordiscover_feed_image_house", labelText: "关注一些人，回这里看看有什么惊喜")
+            
+            
+        }
+    }
+
 }

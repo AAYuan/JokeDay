@@ -18,9 +18,10 @@
 		8309ECBE1CE2D5FA0040A753 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECBD1CE2D5FA0040A753 /* ProfileViewController.swift */; };
 		8309ECC01CE2D6060040A753 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECBF1CE2D6060040A753 /* HomeViewController.swift */; };
 		8309ECC21CE2D6130040A753 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECC11CE2D6130040A753 /* DiscoverViewController.swift */; };
-		8309ECC61CE2F16C0040A753 /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 8309ECC41CE2F16C0040A753 /* MainVCSettings.json */; };
-		8309ECC71CE2F16C0040A753 /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECC51CE2F16C0040A753 /* NullViewController.swift */; };
 		8309ECC91CE30EE50040A753 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8309ECC81CE30EE50040A753 /* BaseViewController.swift */; };
+		830A0B9F1CE4297D0058421C /* MainVCSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 830A0B9D1CE4297D0058421C /* MainVCSettings.json */; };
+		830A0BA01CE4297D0058421C /* NullViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A0B9E1CE4297D0058421C /* NullViewController.swift */; };
+		830A0BA21CE429970058421C /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830A0BA11CE429970058421C /* VisitorView.swift */; };
 		83C603A31CE3B78500EAA38F /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C603A21CE3B78500EAA38F /* UIView+AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
@@ -59,9 +60,10 @@
 		8309ECBD1CE2D5FA0040A753 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		8309ECBF1CE2D6060040A753 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		8309ECC11CE2D6130040A753 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
-		8309ECC41CE2F16C0040A753 /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
-		8309ECC51CE2F16C0040A753 /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
 		8309ECC81CE30EE50040A753 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		830A0B9D1CE4297D0058421C /* MainVCSettings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainVCSettings.json; sourceTree = "<group>"; };
+		830A0B9E1CE4297D0058421C /* NullViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NullViewController.swift; sourceTree = "<group>"; };
+		830A0BA11CE429970058421C /* VisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
 		83C603A21CE3B78500EAA38F /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,7 +175,6 @@
 		8309ECB41CE2D5A70040A753 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				8309ECC31CE2F16C0040A753 /* Resource */,
 				8309ECBF1CE2D6060040A753 /* HomeViewController.swift */,
 			);
 			path = Home;
@@ -182,8 +183,10 @@
 		8309ECB51CE2D5A70040A753 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				830A0B9C1CE4297D0058421C /* Resource */,
 				8309ECB91CE2D5D00040A753 /* MainViewController.swift */,
 				8309ECC81CE30EE50040A753 /* BaseViewController.swift */,
+				830A0BA11CE429970058421C /* VisitorView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -212,11 +215,11 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
-		8309ECC31CE2F16C0040A753 /* Resource */ = {
+		830A0B9C1CE4297D0058421C /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				8309ECC41CE2F16C0040A753 /* MainVCSettings.json */,
-				8309ECC51CE2F16C0040A753 /* NullViewController.swift */,
+				830A0B9D1CE4297D0058421C /* MainVCSettings.json */,
+				830A0B9E1CE4297D0058421C /* NullViewController.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -330,7 +333,7 @@
 			files = (
 				8309EC7A1CE2CDB50040A753 /* LaunchScreen.storyboard in Resources */,
 				8309EC771CE2CDB50040A753 /* Assets.xcassets in Resources */,
-				8309ECC61CE2F16C0040A753 /* MainVCSettings.json in Resources */,
+				830A0B9F1CE4297D0058421C /* MainVCSettings.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,14 +358,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				830A0BA21CE429970058421C /* VisitorView.swift in Sources */,
 				8309ECBA1CE2D5D00040A753 /* MainViewController.swift in Sources */,
 				8309EC721CE2CDB50040A753 /* ViewController.swift in Sources */,
 				8309ECC21CE2D6130040A753 /* DiscoverViewController.swift in Sources */,
 				8309ECBE1CE2D5FA0040A753 /* ProfileViewController.swift in Sources */,
 				8309ECBC1CE2D5E10040A753 /* MessageViewController.swift in Sources */,
+				830A0BA01CE4297D0058421C /* NullViewController.swift in Sources */,
 				83C603A31CE3B78500EAA38F /* UIView+AutoLayout.swift in Sources */,
 				8309ECC91CE30EE50040A753 /* BaseViewController.swift in Sources */,
-				8309ECC71CE2F16C0040A753 /* NullViewController.swift in Sources */,
 				8309EC701CE2CDB50040A753 /* AppDelegate.swift in Sources */,
 				8309ECC01CE2D6060040A753 /* HomeViewController.swift in Sources */,
 			);
