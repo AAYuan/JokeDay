@@ -48,8 +48,22 @@ class HomeViewController: BaseViewController {
         navigationItem.rightBarButtonItem = createBarButtonItem("navigationbar_pop", target: self, action: "rightItemClick")
         */
         
+        //1.初始化左右按钮
         navigationItem.leftBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_friendattention", target: self, action: "leftItemClick")
         navigationItem.rightBarButtonItem = UIBarButtonItem.createBarButtonItem("navigationbar_pop", target: self, action: "rightItemClick")
+        
+        //2.初始化标题按钮
+        let titleBtn = TitleButton()
+        titleBtn.setTitle("AYuan_ ", forState: UIControlState.Normal)
+        titleBtn.addTarget(self, action: "titleBtnClick:", forControlEvents: UIControlEvents.TouchUpInside)
+        navigationItem.titleView = titleBtn
+        
+    }
+    
+    func titleBtnClick(btn:TitleButton)
+    {
+        print(__FUNCTION__)
+        btn.selected = !btn.selected
         
     }
     

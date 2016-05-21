@@ -40,6 +40,7 @@
 		83933BDE1CEF6FB400D41535 /* navigationbar_pop_highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83933BCD1CEF6FB400D41535 /* navigationbar_pop_highlighted@2x.png */; };
 		83933BDF1CEF6FB400D41535 /* navigationbar_pop_highlighted@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83933BCE1CEF6FB400D41535 /* navigationbar_pop_highlighted@3x.png */; };
 		83933BE11CEF74EC00D41535 /* UIBarButtonItem+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83933BE01CEF74EC00D41535 /* UIBarButtonItem+Category.swift */; };
+		83933BE31CF00CFF00D41535 /* TitleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83933BE21CF00CFF00D41535 /* TitleButton.swift */; };
 		83C603A31CE3B78500EAA38F /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C603A21CE3B78500EAA38F /* UIView+AutoLayout.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,7 @@
 		83933BCD1CEF6FB400D41535 /* navigationbar_pop_highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_pop_highlighted@2x.png"; sourceTree = "<group>"; };
 		83933BCE1CEF6FB400D41535 /* navigationbar_pop_highlighted@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navigationbar_pop_highlighted@3x.png"; sourceTree = "<group>"; };
 		83933BE01CEF74EC00D41535 /* UIBarButtonItem+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Category.swift"; sourceTree = "<group>"; };
+		83933BE21CF00CFF00D41535 /* TitleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleButton.swift; sourceTree = "<group>"; };
 		83C603A21CE3B78500EAA38F /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -198,6 +200,7 @@
 			isa = PBXGroup;
 			children = (
 				83933BE01CEF74EC00D41535 /* UIBarButtonItem+Category.swift */,
+				83933BE21CF00CFF00D41535 /* TitleButton.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -497,6 +500,7 @@
 				83C603A31CE3B78500EAA38F /* UIView+AutoLayout.swift in Sources */,
 				8309ECC91CE30EE50040A753 /* BaseViewController.swift in Sources */,
 				8309EC701CE2CDB50040A753 /* AppDelegate.swift in Sources */,
+				83933BE31CF00CFF00D41535 /* TitleButton.swift in Sources */,
 				8309ECC01CE2D6060040A753 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
